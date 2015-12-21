@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960EAA1618ED5BDC007A0293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960EAA1518ED5BDC007A0293 /* Foundation.framework */; };
+		960EAA1818ED5BDC007A0293 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960EAA1718ED5BDC007A0293 /* CoreGraphics.framework */; };
+		960EAA1A18ED5BDC007A0293 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960EAA1918ED5BDC007A0293 /* UIKit.framework */; };
+		960EAA2018ED5BDC007A0293 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 960EAA1E18ED5BDC007A0293 /* InfoPlist.strings */; };
+		960EAA2218ED5BDC007A0293 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 960EAA2118ED5BDC007A0293 /* main.m */; };
+		960EAA2618ED5BDC007A0293 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 960EAA2518ED5BDC007A0293 /* AppDelegate.m */; };
+		960EAA2918ED5BDC007A0293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960EAA2718ED5BDC007A0293 /* Main.storyboard */; };
+		960EAA2C18ED5BDC007A0293 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 960EAA2B18ED5BDC007A0293 /* ViewController.m */; };
+		960EAA2E18ED5BDC007A0293 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960EAA2D18ED5BDC007A0293 /* Images.xcassets */; };
+		960EAA3518ED5BDC007A0293 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960EAA3418ED5BDC007A0293 /* XCTest.framework */; };
+		960EAA3618ED5BDC007A0293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960EAA1518ED5BDC007A0293 /* Foundation.framework */; };
+		960EAA3718ED5BDC007A0293 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960EAA1918ED5BDC007A0293 /* UIKit.framework */; };
+		960EAA3F18ED5BDC007A0293 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 960EAA3D18ED5BDC007A0293 /* InfoPlist.strings */; };
+		960EAA4118ED5BDC007A0293 /* compassProcessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 960EAA4018ED5BDC007A0293 /* compassProcessTests.m */; };
+		960EAA4B18ED5CF2007A0293 /* Compass Dial 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 960EAA4A18ED5CF2007A0293 /* Compass Dial 3.png */; };
+		960EAA4D18ED5E48007A0293 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960EAA4C18ED5E48007A0293 /* CoreMotion.framework */; };
+		960EAA4F18ED5E50007A0293 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960EAA4E18ED5E50007A0293 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		960EAA3818ED5BDC007A0293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960EAA0A18ED5BDC007A0293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960EAA1118ED5BDC007A0293;
+			remoteInfo = compassProcess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		960EAA1218ED5BDC007A0293 /* compassProcess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = compassProcess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960EAA1518ED5BDC007A0293 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		960EAA1718ED5BDC007A0293 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		960EAA1918ED5BDC007A0293 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		960EAA1D18ED5BDC007A0293 /* compassProcess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "compassProcess-Info.plist"; sourceTree = "<group>"; };
+		960EAA1F18ED5BDC007A0293 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		960EAA2118ED5BDC007A0293 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		960EAA2318ED5BDC007A0293 /* compassProcess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "compassProcess-Prefix.pch"; sourceTree = "<group>"; };
+		960EAA2418ED5BDC007A0293 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		960EAA2518ED5BDC007A0293 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		960EAA2818ED5BDC007A0293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		960EAA2A18ED5BDC007A0293 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		960EAA2B18ED5BDC007A0293 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		960EAA2D18ED5BDC007A0293 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		960EAA3318ED5BDC007A0293 /* compassProcessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = compassProcessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960EAA3418ED5BDC007A0293 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		960EAA3C18ED5BDC007A0293 /* compassProcessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "compassProcessTests-Info.plist"; sourceTree = "<group>"; };
+		960EAA3E18ED5BDC007A0293 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		960EAA4018ED5BDC007A0293 /* compassProcessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = compassProcessTests.m; sourceTree = "<group>"; };
+		960EAA4A18ED5CF2007A0293 /* Compass Dial 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Compass Dial 3.png"; sourceTree = "<group>"; };
+		960EAA4C18ED5E48007A0293 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		960EAA4E18ED5E50007A0293 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960EAA0F18ED5BDC007A0293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960EAA4F18ED5E50007A0293 /* CoreLocation.framework in Frameworks */,
+				960EAA4D18ED5E48007A0293 /* CoreMotion.framework in Frameworks */,
+				960EAA1818ED5BDC007A0293 /* CoreGraphics.framework in Frameworks */,
+				960EAA1A18ED5BDC007A0293 /* UIKit.framework in Frameworks */,
+				960EAA1618ED5BDC007A0293 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960EAA3018ED5BDC007A0293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960EAA3518ED5BDC007A0293 /* XCTest.framework in Frameworks */,
+				960EAA3718ED5BDC007A0293 /* UIKit.framework in Frameworks */,
+				960EAA3618ED5BDC007A0293 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		960EAA0918ED5BDC007A0293 = {
+			isa = PBXGroup;
+			children = (
+				960EAA1B18ED5BDC007A0293 /* compassProcess */,
+				960EAA3A18ED5BDC007A0293 /* compassProcessTests */,
+				960EAA1418ED5BDC007A0293 /* Frameworks */,
+				960EAA1318ED5BDC007A0293 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		960EAA1318ED5BDC007A0293 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960EAA1218ED5BDC007A0293 /* compassProcess.app */,
+				960EAA3318ED5BDC007A0293 /* compassProcessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960EAA1418ED5BDC007A0293 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				960EAA4E18ED5E50007A0293 /* CoreLocation.framework */,
+				960EAA4C18ED5E48007A0293 /* CoreMotion.framework */,
+				960EAA1518ED5BDC007A0293 /* Foundation.framework */,
+				960EAA1718ED5BDC007A0293 /* CoreGraphics.framework */,
+				960EAA1918ED5BDC007A0293 /* UIKit.framework */,
+				960EAA3418ED5BDC007A0293 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		960EAA1B18ED5BDC007A0293 /* compassProcess */ = {
+			isa = PBXGroup;
+			children = (
+				960EAA4A18ED5CF2007A0293 /* Compass Dial 3.png */,
+				960EAA2418ED5BDC007A0293 /* AppDelegate.h */,
+				960EAA2518ED5BDC007A0293 /* AppDelegate.m */,
+				960EAA2718ED5BDC007A0293 /* Main.storyboard */,
+				960EAA2A18ED5BDC007A0293 /* ViewController.h */,
+				960EAA2B18ED5BDC007A0293 /* ViewController.m */,
+				960EAA2D18ED5BDC007A0293 /* Images.xcassets */,
+				960EAA1C18ED5BDC007A0293 /* Supporting Files */,
+			);
+			path = compassProcess;
+			sourceTree = "<group>";
+		};
+		960EAA1C18ED5BDC007A0293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				960EAA1D18ED5BDC007A0293 /* compassProcess-Info.plist */,
+				960EAA1E18ED5BDC007A0293 /* InfoPlist.strings */,
+				960EAA2118ED5BDC007A0293 /* main.m */,
+				960EAA2318ED5BDC007A0293 /* compassProcess-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		960EAA3A18ED5BDC007A0293 /* compassProcessTests */ = {
+			isa = PBXGroup;
+			children = (
+				960EAA4018ED5BDC007A0293 /* compassProcessTests.m */,
+				960EAA3B18ED5BDC007A0293 /* Supporting Files */,
+			);
+			path = compassProcessTests;
+			sourceTree = "<group>";
+		};
+		960EAA3B18ED5BDC007A0293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				960EAA3C18ED5BDC007A0293 /* compassProcessTests-Info.plist */,
+				960EAA3D18ED5BDC007A0293 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960EAA1118ED5BDC007A0293 /* compassProcess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960EAA4418ED5BDC007A0293 /* Build configuration list for PBXNativeTarget "compassProcess" */;
+			buildPhases = (
+				960EAA0E18ED5BDC007A0293 /* Sources */,
+				960EAA0F18ED5BDC007A0293 /* Frameworks */,
+				960EAA1018ED5BDC007A0293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = compassProcess;
+			productName = compassProcess;
+			productReference = 960EAA1218ED5BDC007A0293 /* compassProcess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		960EAA3218ED5BDC007A0293 /* compassProcessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960EAA4718ED5BDC007A0293 /* Build configuration list for PBXNativeTarget "compassProcessTests" */;
+			buildPhases = (
+				960EAA2F18ED5BDC007A0293 /* Sources */,
+				960EAA3018ED5BDC007A0293 /* Frameworks */,
+				960EAA3118ED5BDC007A0293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960EAA3918ED5BDC007A0293 /* PBXTargetDependency */,
+			);
+			name = compassProcessTests;
+			productName = compassProcessTests;
+			productReference = 960EAA3318ED5BDC007A0293 /* compassProcessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		960EAA0A18ED5BDC007A0293 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Ishani;
+				TargetAttributes = {
+					960EAA3218ED5BDC007A0293 = {
+						TestTargetID = 960EAA1118ED5BDC007A0293;
+					};
+				};
+			};
+			buildConfigurationList = 960EAA0D18ED5BDC007A0293 /* Build configuration list for PBXProject "compassProcess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 960EAA0918ED5BDC007A0293;
+			productRefGroup = 960EAA1318ED5BDC007A0293 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960EAA1118ED5BDC007A0293 /* compassProcess */,
+				960EAA3218ED5BDC007A0293 /* compassProcessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		960EAA1018ED5BDC007A0293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960EAA4B18ED5CF2007A0293 /* Compass Dial 3.png in Resources */,
+				960EAA2E18ED5BDC007A0293 /* Images.xcassets in Resources */,
+				960EAA2018ED5BDC007A0293 /* InfoPlist.strings in Resources */,
+				960EAA2918ED5BDC007A0293 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960EAA3118ED5BDC007A0293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960EAA3F18ED5BDC007A0293 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960EAA0E18ED5BDC007A0293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960EAA2C18ED5BDC007A0293 /* ViewController.m in Sources */,
+				960EAA2618ED5BDC007A0293 /* AppDelegate.m in Sources */,
+				960EAA2218ED5BDC007A0293 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960EAA2F18ED5BDC007A0293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960EAA4118ED5BDC007A0293 /* compassProcessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		960EAA3918ED5BDC007A0293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960EAA1118ED5BDC007A0293 /* compassProcess */;
+			targetProxy = 960EAA3818ED5BDC007A0293 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		960EAA1E18ED5BDC007A0293 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960EAA1F18ED5BDC007A0293 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		960EAA2718ED5BDC007A0293 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960EAA2818ED5BDC007A0293 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		960EAA3D18ED5BDC007A0293 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960EAA3E18ED5BDC007A0293 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		960EAA4218ED5BDC007A0293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		960EAA4318ED5BDC007A0293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		960EAA4518ED5BDC007A0293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "compassProcess/compassProcess-Prefix.pch";
+				INFOPLIST_FILE = "compassProcess/compassProcess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		960EAA4618ED5BDC007A0293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "compassProcess/compassProcess-Prefix.pch";
+				INFOPLIST_FILE = "compassProcess/compassProcess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		960EAA4818ED5BDC007A0293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/compassProcess.app/compassProcess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "compassProcess/compassProcess-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "compassProcessTests/compassProcessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		960EAA4918ED5BDC007A0293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/compassProcess.app/compassProcess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "compassProcess/compassProcess-Prefix.pch";
+				INFOPLIST_FILE = "compassProcessTests/compassProcessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960EAA0D18ED5BDC007A0293 /* Build configuration list for PBXProject "compassProcess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960EAA4218ED5BDC007A0293 /* Debug */,
+				960EAA4318ED5BDC007A0293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960EAA4418ED5BDC007A0293 /* Build configuration list for PBXNativeTarget "compassProcess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960EAA4518ED5BDC007A0293 /* Debug */,
+				960EAA4618ED5BDC007A0293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		960EAA4718ED5BDC007A0293 /* Build configuration list for PBXNativeTarget "compassProcessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960EAA4818ED5BDC007A0293 /* Debug */,
+				960EAA4918ED5BDC007A0293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 960EAA0A18ED5BDC007A0293 /* Project object */;
+}
